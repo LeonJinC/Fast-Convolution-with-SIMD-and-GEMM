@@ -9,6 +9,7 @@ Application on Gaussian Blur;
 * 高斯模糊之普通卷积
 * 高斯模糊之基于FFT的快速卷积
 * 高斯模糊之基于GEMM的快速卷积
+* immintrin.h相关函数和数据类型的使用以及实现内存对齐的malloc
 
 
 # 项目属性设置
