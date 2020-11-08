@@ -1,19 +1,27 @@
 # Fast-Convolution-with-SIMD-and-GEMM
 Fast Convolution with SIMD and GEMM; 
 Application on Gaussian Blur;
-结合SIMD和GEMM的快速卷积及其在高斯模糊中的应用
+结合SIMD和GEMM的快速卷积及其在高斯模糊中的应用;
 
-项目属性设置：
+# 项目完成的工作
+*行优先矩阵的GEMM实现
+*列优先矩阵的GEMM实现
+*高斯模糊之普通卷积
+*高斯模糊之基于FFT的快速卷积
+*高斯模糊之基于GEMM的快速卷积
 
-C/C++ -> 优化 -> 优化：使速度最大化/O2
 
-C/C++ -> 代码生成 -> 启用增强指令集：高级矢量扩展2 /arch:AVX2
+#项目属性设置
 
-C/C++ -> 语言 -> OpenMP支持：是 /openmp
+*C/C++ -> 优化 -> 优化：使速度最大化/O2
 
-需要的话另外配置opencv的环境
+*C/C++ -> 代码生成 -> 启用增强指令集：高级矢量扩展2 /arch:AVX2
 
-需要用的一些较为重要的库：
+*C/C++ -> 语言 -> OpenMP支持：是 /openmp
+
+*需要的话另外配置opencv的环境
+
+*需要用的一些较为重要的库：
 
 omp.h ：openMP多线程库，是对多线程技术的抽象封装
 
