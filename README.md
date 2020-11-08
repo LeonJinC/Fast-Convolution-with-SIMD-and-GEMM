@@ -12,20 +12,13 @@ Application on Gaussian Blur;
 
 
 # 项目属性设置
-
 * C/C++ -> 优化 -> 优化：使速度最大化/O2
-
 * C/C++ -> 代码生成 -> 启用增强指令集：高级矢量扩展2 /arch:AVX2
-
 * C/C++ -> 语言 -> OpenMP支持：是 /openmp
-
 * 需要的话另外配置opencv的环境
-
 * 需要用的一些较为重要的库：
-
-omp.h ：openMP多线程库，是对多线程技术的抽象封装
-
-immintrin.h ： SIMD单指令多数据C++库，是对SIMD的抽象封装，其中的api函数和数据类型经过C++编译之后可以生成支持AVX2的汇编语句
+  * omp.h ：openMP多线程库，是对多线程技术的抽象封装
+  * immintrin.h ： C++库，是对AVX2的抽象封装，其中的api函数和数据类型经过C++编译之后可以生成支持AVX2的汇编语句
 
 
 # 实验结果0：GEMM方法比较
