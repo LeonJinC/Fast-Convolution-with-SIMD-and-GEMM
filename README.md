@@ -35,6 +35,5 @@ immintrin.h ： SIMD单指令多数据C++库，是对SIMD的抽象封装，其�
 # 实验结果4：输入图像8x8高斯核3x3
 ![实验结果4](https://github.com/LeonJinC/Fast-Convolution-with-SIMD-and-GEMM/blob/main/RESULTS4Matrix.jpg)
 
-hello
 
 
