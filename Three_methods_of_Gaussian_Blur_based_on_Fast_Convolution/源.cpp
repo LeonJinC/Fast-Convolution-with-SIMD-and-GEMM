@@ -22,9 +22,9 @@ void myGaussianBlur_FFT(Mat &srcIm, Mat &dstIm, Mat &gaussiankernel, int kernel_
 
 int main() {
 
-	int iftest = 0; int height = 128;int width = 128;
-	//int iftest = 1; int height = 512; int width = 512;
-	//int iftest = 1; int height = 8; int width = 8;
+	//int iftest = 0; int height = 128;int width = 128;//²âÊÔĞ§ÂÊ
+	int iftest = 1; int height = 512; int width = 512;//ÏÔÊ¾Í¼Æ¬
+	//int iftest = 1; int height = 8; int width = 8;//ÏÔÊ¾¾ØÕó
 
 	int channels_in = 1;
 	int channels_out = 1;
